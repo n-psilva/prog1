@@ -7,11 +7,11 @@ int main()
     printf("Digite um numero para a ate que termo deve ir a sequencia de Fibonacci:\n\n");
     scanf("%d",&n);
     printf("Sequencia = ");
-    if(n>=1);
+    if(n>=1)
     {
        printf("0, ");
     }
-    if(n>=2);
+    if(n>=2)
     {
        printf("1, ");
     }
