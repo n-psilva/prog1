@@ -5,10 +5,20 @@ int main()
 {
 	char forca[10] = "agua";
 	char letra[10];
-	int i,j,tam;
+	int i,j,tam, a,b,c;
+	a=47;
+	b=124;
+	c=92;
 	
-	printf("..");
 	
+	
+	printf("\n---------.");
+	printf("\n|        |");
+	printf("\n|        O ");
+	printf("\n|      ");
+	printf("\n|      ");
+	printf("\n|");
+	printf("\n Acerte a palavra e salve o boneco!");
 	tam = strlen(forca);
 	
 	for(i=0;i<=6;i++)
@@ -31,6 +41,6 @@ int main()
 	}
 	
 	
-	system("pause");
+	system ("pause");
 	return 0;
 }
